@@ -8,7 +8,7 @@
         "mega.nz bot"
     ],
     "website": "https://www.safone.tech",
-    "repository": "https://github.com/AsmSafone/MegaDL-Bot",
+    "repository": "https://github.com/Nanatsu2370/mega",
     "success_url": "https://t.me/AsmSafone",
     "env": {
         "API_ID": {
