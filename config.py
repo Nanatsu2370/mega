@@ -29,22 +29,19 @@ class TEXT:
 
 👥 **Support Group:** [AsmSupport](https://t.me/AsmSupport)
 
-📢 **Updates Channel:** [Ｓ１ ＢＯＴＳ](https://t.me/AsmSafone)
 """
 
   HELP_USER = """
-This is **{bot_name}**
 
-This Bot Can Download Files & Videos From Mega Links & Upload To Telegram. Just Send Any Mega.nz Link & See The Magic. You Can Also Add or Change Caption: Just Select An Uploaded File/ Video or Forward Me Any Telegram File & Then Write The Text You Want To Be Caption On The File As A Reply To That File & The Text You Wrote Will Be Attached As Caption 😁! 
 
-**Made With ❤️ By @AsmSafone! 👑**
+Este bot puede descargar archivos y videos de Mega Links y subirlos a Telegram. Simplemente envíe cualquier enlace de Mega.nz y vea la magia. También puede agregar o cambiar el subtítulo: simplemente seleccione un archivo / video cargado o reenvíeme cualquier archivo de Telegram y luego escriba el texto que desea que esté subtitulado en el archivo como respuesta a ese archivo y el texto que escribió se adjuntará como subtítulo 😁!
+"
 """
 
   START_TEXT = """
-👋🏻 **Hi** {user_mention},
+👋🏻 **Hola** {user_mention},
 
-I'm **{bot_name}**
-I Can Download Files & Videos From Mega.nz Links & Upload To Telegram. Please Check Help To Learn More 😉!
-
+Soy **{bot_name}**
+Puedo descargar archivos y videos de Mega.nz Links y subirlos a Telegram. ¡Consulte la ayuda para obtener más información 😉! 
 **Maintained By: {bot_owner}**❤️!
 """

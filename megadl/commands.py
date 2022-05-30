@@ -1,6 +1,3 @@
-# (c) Asm Safone
-# A Part of MegaDL-Bot <https://github.com/AsmSafone/MegaDL-Bot>
-
 import os
 import math
 import time
@@ -25,7 +22,7 @@ async def help(bot, message, cb=False):
         InlineKeyboardButton(f'🏠 HOME', callback_data='back'),
         InlineKeyboardButton(f'ABOUT 👨', callback_data='about')
         ],[
-        InlineKeyboardButton(f'📦 SOURCE', url='https://github.com/AsmSafone/MegaDL-Bot'),
+        #InlineKeyboardButton(f'📦 SOURCE', url='https://github.com/AsmSafone/MegaDL-Bot'),
         InlineKeyboardButton(f'CLOSE 🔐', callback_data='close')
         ]]
     reply_markup = InlineKeyboardMarkup(button)
@@ -57,7 +54,7 @@ async def start(bot, message, cb=False):
         InlineKeyboardButton(f'💡 HELP', callback_data='help'),
         InlineKeyboardButton(f'ABOUT 👨', callback_data="about")
         ],[
-        InlineKeyboardButton(f'📦 SOURCE', url='https://github.com/AsmSafone/MegaDL-Bot'),
+        #InlineKeyboardButton(f'📦 SOURCE', url='https://github.com/AsmSafone/MegaDL-Bot'),
         InlineKeyboardButton(f'CLOSE 🔐', callback_data="close")
         ]]
     reply_markup = InlineKeyboardMarkup(button)
@@ -87,7 +84,7 @@ async def about(bot, message, cb=False):
         InlineKeyboardButton(f'🏠 HOME', callback_data='back'),
         InlineKeyboardButton(f'HELP 💡', callback_data='help')
         ],[
-        InlineKeyboardButton(f'📦 SOURCE', url='https://github.com/AsmSafone/MegaDL-Bot'),
+        #InlineKeyboardButton(f'📦 SOURCE', url='https://github.com/AsmSafone/MegaDL-Bot'),
         InlineKeyboardButton(f'CLOSE 🔐', callback_data="close")
         ]]
     reply_markup = InlineKeyboardMarkup(button)
